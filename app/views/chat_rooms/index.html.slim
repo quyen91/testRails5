@@ -1,4 +1,9 @@
 h1 Welcome to my chat room
 = link_to 'add', new_chat_room_path
 
+h3 Room
+
 = render @chat_rooms
+
+h2 User
+= current_user.email
