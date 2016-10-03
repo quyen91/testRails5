@@ -1,4 +1,14 @@
-= form_for @message, url: '#' do |f|
- = f.label :body
- = f.text_area :body
- = f.submit 'Post'
+.container-fluid
+  h3 Room: #{@chat_room.title}
+
+  = form_for @message, url: '#' do |f|
+    .form-group
+       = f.label :content
+       = f.text_area :body, class: 'form-control'
+       = f.submit 'Post'
+
+
+  h3 Message
+
+  #message data-chat-room-id='#{@chat_room.id}'
+   = render @chat_room.messages
