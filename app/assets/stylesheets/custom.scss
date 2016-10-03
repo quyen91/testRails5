@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+
+}
+.top-title{
+  background: green;
+  color: white;
+  text-align: center;
+
+}
+.text-box{
+  border: black solid 1px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.message-box{
+  border: black solid 1px;
+}
