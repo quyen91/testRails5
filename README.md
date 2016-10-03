@@ -2,7 +2,7 @@
 
 **Hello Rails** Just demo for ActionCable
 
-URL: **Insert your Heroku URL here**
+URL: http://rtchat2016.herokuapp.com/
 
 ## Features
 
